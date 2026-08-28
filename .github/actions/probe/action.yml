@@ -1,0 +1,7 @@
+name: probe
+description: Trivial composite action used to test uses:: resolution across a repo transfer.
+runs:
+  using: composite
+  steps:
+    - shell: bash
+      run: echo "PROBE_ACTION_RESOLVED=yes"
