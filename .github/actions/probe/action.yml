@@ -1,5 +1,5 @@
 name: probe
-description: Trivial composite action used to test uses:: resolution across a repo transfer.
+description: Trivial composite action for testing cross-transfer action resolution
 runs:
   using: composite
   steps:
